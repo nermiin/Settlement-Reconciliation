@@ -16,6 +16,9 @@ Demonstrates BA work on back-office payment operations: matching clearing files 
 | [User Stories & Acceptance Criteria](docs/04-user-stories-and-acceptance-criteria.md) | Ops and finance user stories |
 | [Stakeholder Analysis](docs/05-stakeholder-analysis.md) | Finance, treasury, operations RACI |
 | [Glossary](docs/06-glossary.md) | Settlement terminology |
+| [To-Be Process Design](docs/07-to-be-process-design.md) | Review findings, change requests, daily flow, break lifecycle |
+| [Worked Scenarios](docs/08-worked-scenarios.md) | Net settlement journal, match rate, holidays, write-off approvals |
+| [Data and Test Plan](docs/09-data-and-test-plan.md) | Reconciliation record, SOX-aligned controls, reporting, UAT |
 | [Requirements Traceability Matrix](artifacts/requirements-traceability-matrix.md) | Requirements traceability |
 
 ## Skills Demonstrated
@@ -25,6 +28,8 @@ Demonstrates BA work on back-office payment operations: matching clearing files 
 - Exception categorization and aging rules
 - Cut-off times and holiday calendar handling
 - Control requirements for SOX-aligned finance processes
+- Requirements quality review, with findings closed through change requests
+- Worked numeric scenarios, edge case registers, and boundary-level UAT plans
 
 ## Disclaimer
 
