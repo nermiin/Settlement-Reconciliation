@@ -45,3 +45,20 @@
 **As a** finance accountant  
 **I want** a balanced journal entry file for matched settlement  
 **So that** I can post to ERP without manual spreadsheet
+
+---
+
+### US-REC-06 — Holiday-aware settlement dates
+
+**As a** reconciliation operator  
+**I want** expected settlement dates to follow each scheme's calendar  
+**So that** a public holiday does not create false breaks
+
+```gherkin
+  Scenario: Clearing before a holiday weekend
+    Given a transaction clears on 2026-04-02
+    And 2026-04-03 and 2026-04-06 are closing days
+    When the expected settlement date is calculated
+    Then the date is 2026-04-07
+    And the record is held as PENDING_TIMING
+```
